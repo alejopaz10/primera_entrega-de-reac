@@ -1,0 +1,35 @@
+.header{
+    background-color:black;
+    padding: 40px 0;
+}
+.header h1{
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+.navbar__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.navbar__item{
+    padding: .8rem;
+}
+.navbar__item:hover{
+    background-color: rgb(63, 57, 57);
+    transition: all .3s linear;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.navbar__link{
+    font-size: 1.6em;
+    line-height: 1;
+}
